@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringVSStringBufferVSStringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringVSStringBufferTest.java" afterDir="false" />
+    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="Concept 1: String v StringBuffer v StringBuilder">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HashMapConcepts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedHashMapConcepts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TreeMapConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +44,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.JavaConcepts [:HashMapConcepts.main()].executor": "Run",
+    "Gradle.JavaConcepts [:LinkedHashMapConcepts.main()].executor": "Run",
     "Gradle.JavaConcepts [:StringVSStringBufferVSStringBuilder.main()].executor": "Run",
+    "Gradle.JavaConcepts [:TreeMapConcept.main()].executor": "Run",
     "Gradle.StringVSStringBufferTest.executor": "Run",
     "Gradle.StringVSStringBufferTest.stringBufferTest.executor": "Run",
     "Gradle.StringVSStringBufferTest.stringBuilderTest.executor": "Run",
@@ -64,40 +56,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.StringVSStringBufferTest.stringBufferTest">
-    <configuration name="StringVSStringBufferVSStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringVSStringBufferVSStringBuilder" />
+  <component name="RunManager" selected="Application.TreeMapConcept">
+    <configuration name="HashMapConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMapConcepts" />
       <module name="JavaConcepts.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringVSStringBufferTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;StringVSStringBufferTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="LinkedHashMapConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedHashMapConcepts" />
+      <module name="JavaConcepts.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeMapConcept" />
+      <module name="JavaConcepts.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="StringVSStringBufferTest.stringBufferTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -147,37 +130,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringVSStringBufferTest.stringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;StringVSStringBufferTest.stringTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapConcept" />
+        <item itemvalue="Application.LinkedHashMapConcepts" />
+        <item itemvalue="Application.HashMapConcepts" />
         <item itemvalue="Gradle.StringVSStringBufferTest.stringBufferTest" />
         <item itemvalue="Gradle.StringVSStringBufferTest.stringBuilderTest" />
-        <item itemvalue="Gradle.StringVSStringBufferTest.stringTest" />
-        <item itemvalue="Gradle.StringVSStringBufferTest" />
-        <item itemvalue="Application.StringVSStringBufferVSStringBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +149,30 @@
       <option name="presentableId" value="Default" />
       <updated>1721837055449</updated>
     </task>
+    <task id="LOCAL-00001" summary="Concept 1: String v StringBuffer v StringBuilder">
+      <option name="closed" value="true" />
+      <created>1721996317435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721996317435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Concept 1: String v StringBuffer v StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concept 1: String v StringBuffer v StringBuilder" />
   </component>
 </project>
