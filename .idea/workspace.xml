@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="Concept 2: HashMap, LinkedHashMap, TreeMap">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immutable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immutable/MyImmutableClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/BillPugh/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/DoubleCheck/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/EagerInitailization/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Enum/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/LazyInitialization/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/SynchronizedMethod/DBConnection.java" afterDir="false" />
+    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="Concept 3: Singleton Class and ImmutableClass">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Comparing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashMapConcepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/HashMapConcepts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedHashMapConcepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/LinkedHashMapConcepts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TreeMapConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/TreeMapConcept.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -62,31 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.JavaConcepts [:HashMapConcepts.main()].executor": "Run",
-    "Gradle.JavaConcepts [:LinkedHashMapConcepts.main()].executor": "Run",
-    "Gradle.JavaConcepts [:Main.main()].executor": "Run",
-    "Gradle.JavaConcepts [:SingletonMain.main()].executor": "Run",
-    "Gradle.JavaConcepts [:StringVSStringBufferVSStringBuilder.main()].executor": "Run",
-    "Gradle.JavaConcepts [:TreeMapConcept.main()].executor": "Run",
-    "Gradle.StringVSStringBufferTest.executor": "Run",
-    "Gradle.StringVSStringBufferTest.stringBufferTest.executor": "Run",
-    "Gradle.StringVSStringBufferTest.stringBuilderTest.executor": "Run",
-    "Gradle.StringVSStringBufferTest.stringTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.JavaConcepts [:HashMapConcepts.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JavaConcepts [:LinkedHashMapConcepts.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JavaConcepts [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JavaConcepts [:SingletonMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JavaConcepts [:StringVSStringBufferVSStringBuilder.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JavaConcepts [:TreeMapConcept.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringVSStringBufferTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringVSStringBufferTest.stringBufferTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringVSStringBufferTest.stringBuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringVSStringBufferTest.stringTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HashMapConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.HashMapConcepts" />
+}</component>
+  <component name="RunManager" selected="Application.Comparing.Main">
+    <configuration name="Comparing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comparing.Main" />
       <module name="JavaConcepts.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Comparing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Comparing.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SingletonMain" />
         <item itemvalue="Application.TreeMapConcept" />
         <item itemvalue="Application.LinkedHashMapConcepts" />
-        <item itemvalue="Application.HashMapConcepts" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722076652143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Concept 3: Singleton Class and ImmutableClass">
+      <option name="closed" value="true" />
+      <created>1722082289147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722082289147</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Concept 1: String v StringBuffer v StringBuilder" />
     <MESSAGE value="Concept 2: HashMap, LinkedHashMap, TreeMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concept 2: HashMap, LinkedHashMap, TreeMap" />
+    <MESSAGE value="Concept 3: Singleton Class and ImmutableClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concept 3: Singleton Class and ImmutableClass" />
   </component>
 </project>
