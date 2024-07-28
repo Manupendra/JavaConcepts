@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="Concept 3: Singleton Class and ImmutableClass">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Comparing/Main.java" afterDir="false" />
+    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="Concept 4: Comparable and Comparator Interface for sorting in Collection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Streams/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Comparing.Main">
+  <component name="RunManager" selected="Application.Streams.Main">
     <configuration name="Comparing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Comparing.Main" />
       <module name="JavaConcepts.main" />
@@ -84,13 +84,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedHashMapConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.LinkedHashMapConcepts" />
-      <module name="JavaConcepts.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Main" />
+      <module name="JavaConcepts.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeMapConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map.TreeMapConcept" />
       <module name="JavaConcepts.main" />
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Streams.Main" />
         <item itemvalue="Application.Comparing.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SingletonMain" />
         <item itemvalue="Application.TreeMapConcept" />
-        <item itemvalue="Application.LinkedHashMapConcepts" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722082289147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Concept 4: Comparable and Comparator Interface for sorting in Collection">
+      <option name="closed" value="true" />
+      <created>1722157252222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722157252222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +197,7 @@
     <MESSAGE value="Concept 1: String v StringBuffer v StringBuilder" />
     <MESSAGE value="Concept 2: HashMap, LinkedHashMap, TreeMap" />
     <MESSAGE value="Concept 3: Singleton Class and ImmutableClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concept 3: Singleton Class and ImmutableClass" />
+    <MESSAGE value="Concept 4: Comparable and Comparator Interface for sorting in Collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concept 4: Comparable and Comparator Interface for sorting in Collection" />
   </component>
 </project>
