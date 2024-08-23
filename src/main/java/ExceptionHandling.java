@@ -49,11 +49,17 @@ public class ExceptionHandling {
         System.out.println("File exists and able to use as a resource.");
     }
 
+    /**
+     * Try with resources
+     * @param filename
+     */
     private static void testFile2(String filename) {
         try (FileReader reader = new FileReader(filename)) {
         } catch (FileNotFoundException e) {
             System.out.println("File '" + filename + "' does not exist");
             throw new RuntimeException(e);
+        } catch (NullPointerException | IllegalArgumentException badData) {
+            System.out.println("User has added bad data " + badData.getMessage());
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (Exception e) {
