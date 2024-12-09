@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="Concept 6: Exception Handling -&gt; Checked and Unchecked Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPools/ThreadPoolExecutorFramework.java" afterDir="false" />
+    <list default="true" id="35fee7d8-93bf-48c5-8f10-cd53063f12fc" name="Changes" comment="Concept 7: Multithreading using ThreadPoolExecutorFramework">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Streams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Streams/EmployeeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExceptionHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.JavaConcepts [:EmployeeTest.main()].executor": "Run",
     "Gradle.JavaConcepts [:ExceptionHandling.main()].executor": "Run",
     "Gradle.JavaConcepts [:HashMapConcepts.main()].executor": "Run",
     "Gradle.JavaConcepts [:LinkedHashMapConcepts.main()].executor": "Run",
@@ -77,13 +78,13 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadPoolExecutorFramework">
-    <configuration name="Comparing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comparing.Main" />
+  <component name="RunManager" selected="Application.EmployeeTest">
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.EmployeeTest" />
       <module name="JavaConcepts.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comparing.*" />
+          <option name="PATTERN" value="Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="immutable.Main" />
+    <configuration name="HashMapConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.HashMapConcepts" />
       <module name="JavaConcepts.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="immutable.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeTest" />
+        <item itemvalue="Application.HashMapConcepts" />
         <item itemvalue="Application.ThreadPoolExecutorFramework" />
         <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.Streams.Main" />
-        <item itemvalue="Application.Comparing.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724004883469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Concept 7: Multithreading using ThreadPoolExecutorFramework">
+      <option name="closed" value="true" />
+      <created>1724386295877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724386295877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +234,8 @@
     <MESSAGE value="Concept 4: Comparable and Comparator Interface for sorting in Collection" />
     <MESSAGE value="Concept 5: Streams Java8 Functional Programming" />
     <MESSAGE value="Concept 6: Exception Handling -&gt; Checked and Unchecked Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concept 6: Exception Handling -&gt; Checked and Unchecked Exceptions" />
+    <MESSAGE value="Concept 7: Multithreading using ThreadPoolExecutorFramework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concept 7: Multithreading using ThreadPoolExecutorFramework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
